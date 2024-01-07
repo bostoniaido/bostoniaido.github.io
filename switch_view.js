@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     .querySelector("#history")
     .addEventListener("click", () => load_page("history"));
   document
+    .querySelector("#instructors")
+    .addEventListener("click", () => load_page("instructors"));
+  document
     .querySelector("#home")
     .addEventListener("click", () => load_page("home"));
   document
@@ -111,84 +114,162 @@ function load_page(page) {
       <div>
       <br>
       <div class="container">
-        <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
-        <h4 class="text-center mb-3 fw-semibold ">Battou Hou - Kihon/Basics (Omori Ryu)</h4>
-        <ol type ="1">
-          <li>Juntou</li>
-          <li>Juntou Sono Ichi</li>
-          <li>Juntou Sono Ni</li>
-          <li>Tsuigekitou</li>
-          <li>Shatou</li>
-          <li>Shihoutou Sono Ichi</li>
-          <li>Shihoutou Sono Ni</li>
-          <li>Zantsotsutou</li>
-        </ol>
-        <h4 class="text-center mb-3 fw-semibold ">Seiza no Bu - Shoden/Beginner (Omori Ryu)</h4>
-        <ol type ="1">
-          <li>Mae</li>
-          <li>Migi</li>
-          <li>Hidari</li>
-          <li>Ushiro</li>
-          <li>Yaegaki</li>
-          <li>Ukenagashi</li>
-          <li>Kaishaku</li>
-          <li>Tsukekomi</li>
-          <li>Tsukikage</li>
-          <li>Oikaze</li>
-          <li>Nukiuchi</li>
-        </ol>
-        <h4 class="text-center mb-3 fw-semibold ">Oku no Kata</h4>
-        <ol type ="1">
-          <li>Zenteki Gyakutou</li>
-          <li>Tatekito</li>
-          <li>Kouteki Gyakutou</li>
-          <li>Kouteki Nukiuchi</li>
-        </ol>
-        <h4 class="text-center mb-3 fw-semibold ">Tatehiza no Bu - Chuden/Intermediate (Eishin Ryu)</h4>
-        <ol type="1">
-          <li>Yokogumo</li>
-          <li>Toraissoku</li>
-          <li>Inazuma</li>
-          <li>Ukigumo</li>
-          <li>Oroshi</li>
-          <li>Iwanami</li>
-          <li>Urokogaeshi</li>
-          <li>Namigaeshi</li>
-          <li>Takiotoshi</li>
-          <li>Makkou</li>
-        </ol>
-        <h4 class="text-center mb-3 fw-semibold ">Okuiai Iwaza no Bu - Okuden (Inner transmission)</h4>
-        <ol type="1">
-          <li>Kasumi</li>
-          <li>Sunegakoi</li>
-          <li>Tozome</li>
-          <li>Towaki</li>
-          <li>Shihougiri</li>
-          <li>Tanashita</li>
-          <li>Ryouzume</li>
-          <li>Torabashiri</li>
-        </ol>
-        <h4 class="text-center mb-3 fw-semibold ">Okuiai Tachiwaza no Bu - Okuden (Inner transmission)</h4>
-        <ol type="1">
-          <li>Yukizure</li>
-          <li>Tsuredachi</li>
-          <li>Sou Makuri</li>
-          <li>Sou Dome</li>
-          <li>Shinobu</li>
-          <li>Yukichigai</li>
-          <li>Sode Surigaeshi</li>
-          <li>Moniri</li>
-          <li>Kabezoe</li>
-          <li>Ukenagashi</li>
-          <li>Itomagoi Sono Ichi</li>
-          <li>Itomagoi Sono Ni</li>
-          <li>Itomagoi Sono San</li>
-        </ol>
+      <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
+      <h4 class="text-center mb-3 fw-semibold ">Battou Hou - Kihon/Basics (Omori Ryu)</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+              <ol type ="1">
+                <li>Juntou</li>
+                <li>Juntou Sono Ichi</li>
+                <li>Juntou Sono Ni</li>
+                <li>Tsuigekitou</li>
+                <li>Shatou</li>
+                <li>Shihoutou Sono Ichi</li>
+                <li>Shihoutou Sono Ni</li>
+                <li>Zantsotsutou</li>
+              </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
       </div>
-
-      <p>More information can be found on the official <a href="mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
+      <h4 class="text-center mb-3 fw-semibold ">Seiza no Bu - Shoden/Beginner (Omori Ryu)</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type ="1">
+              <li>Mae</li>
+              <li>Migi</li>
+              <li>Hidari</li>
+              <li>Ushiro</li>
+              <li>Yaegaki</li>
+              <li>Ukenagashi</li>
+              <li>Kaishaku</li>
+              <li>Tsukekomi</li>
+              <li>Tsukikage</li>
+              <li>Oikaze</li>
+              <li>Nukiuchi</li>
+            </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+      </div>
+      <h4 class="text-center mb-3 fw-semibold ">Oku no Kata</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type ="1">
+              <li>Zenteki Gyakutou</li>
+              <li>Tatekito</li>
+              <li>Kouteki Gyakutou</li>
+              <li>Kouteki Nukiuchi</li>
+            </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+      </div>
+      <h4 class="text-center mb-3 fw-semibold ">Tatehiza no Bu - Chuden/Intermediate (Eishin Ryu)</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type="1">
+              <li>Yokogumo</li>
+              <li>Toraissoku</li>
+              <li>Inazuma</li>
+              <li>Ukigumo</li>
+              <li>Oroshi</li>
+              <li>Iwanami</li>
+              <li>Urokogaeshi</li>
+              <li>Namigaeshi</li>
+              <li>Takiotoshi</li>
+              <li>Makkou</li>
+            </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+      </div>
+      <h4 class="text-center mb-3 fw-semibold ">Okuiai Iwaza no Bu - Okuden (Inner transmission)</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type="1">
+              <li>Kasumi</li>
+              <li>Sunegakoi</li>
+              <li>Tozome</li>
+              <li>Towaki</li>
+              <li>Shihougiri</li>
+              <li>Tanashita</li>
+              <li>Ryouzume</li>
+              <li>Torabashiri</li>
+            </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+      </div>
+      <h4 class="text-center mb-3 fw-semibold ">Okuiai Tachiwaza no Bu - Okuden (Inner transmission)</h4>
+      <div class="container">
+      <div class="row">
+          <div class="col">
+          </div>
+          <div class="col">
+          <ol type="1">
+            <li>Yukizure</li>
+            <li>Tsuredachi</li>
+            <li>Sou Makuri</li>
+            <li>Sou Dome</li>
+            <li>Shinobu</li>
+            <li>Yukichigai</li>
+            <li>Sode Surigaeshi</li>
+            <li>Moniri</li>
+            <li>Kabezoe</li>
+            <li>Ukenagashi</li>
+            <li>Itomagoi Sono Ichi</li>
+            <li>Itomagoi Sono Ni</li>
+            <li>Itomagoi Sono San</li>
+          </ol>
+        </div>
+        <div class="col">
+        </div>
     </div>
+  </div>
+    <p style="text-align:center">More information can be found on the official <a href="mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
     `;
+  }
+
+  if (page == "instructors") {
+    document.querySelector("#other").style.display = "block";
+    document.querySelector("#main").style.display = "none";
+
+    const display = document.querySelector("#other");
+    display.innerHTML = `
+    <div class="container mt-4 pb-4">
+      <div class="container">
+          <h1 class="text-center mb-3">Instructors</h1>
+          // <p class="A table of 3 columns, 2 rows with name and dan"</p>
+      </div>
+    </div>
+          `;
   }
 
   if (page == "faqs") {
@@ -196,103 +277,207 @@ function load_page(page) {
     document.querySelector("#main").style.display = "none";
 
     const display = document.querySelector("#other");
-    display.innerHTML = `<p class="h1 text-center display-5 mb-3 fw-semibold lh-small">Coming Soon!</p>`
-//     display.innerHTML = `
-//     <div class="container">
-//       <div class="accordion" id="accordionExample">
-//     <div class="accordion-item">
-//       <h2 class="accordion-header" id="headingOne">
-//         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-//           I want to check out a class! How do I start?
-//         </button>
-//       </h2>
-//       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-//         <div class="accordion-body">
-//         <p><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. </p>
-//         <strong>I never done martial arts before. What do I need to prepare myself?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         <strong>I have a martial arts background. Is it transferable?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         <strong>I did kendo and would like to do Iaido. Is it difficult to transition over?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         <strong>I have an injury. Can I still do Iaido?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         <strong>How much does it all cost?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         <strong>What federation are we a part of?</strong>
-//         <p class="lh-base"> Text Here </p>
-//         </div>
-//       </div>
-//     </div>
-//     <div class="accordion-item">
-//       <h2 class="accordion-header" id="headingTwo">
-//         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-//           Been practicing with us for a while?
-//         </button>
-//       </h2>
-//       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-//         <div class="accordion-body">
-//           <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-//         </div>
-//       </div>
-//     </div>
-//     <div class="accordion-item">
-//       <h2 class="accordion-header" id="headingThree">
-//         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-//           Waza(Techniques) of MJER
-//         </button>
-//       </h2>
-//       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-//         <div class="accordion-body">
-//           <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-
-    // `
-    // // display.innerHTML = `
-    //   <div class="container">
-    //   <p class="h1 text-center display-5 mb-3 fw-semibold lh-small">Frequently Asked Questions</p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">I want to check out a class. How do I start?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">I never done martial arts before. What do I need to prepare myself?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">I have a martial arts background. Is it transferable?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">I did kendo and would like to do iaido. Is it difficult to transition over?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">I have an injury. Can I still do iaido?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">How much does it all cost?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">What federation are we a part of?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   </div>
-    //   <div class="container">
-    //   <p class="h1 mb-3 fw-semibold lh-small">Been practicing for a while?</p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">How do I buy a uniform?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">How do I get an iaito?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">What about kneepads?</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="h4 mb-3 fw-semibold lh-small">Are there any supplemental reading I can do?</p>
-    //   <p class="lh-base"> Esaka Sensei's book </p>
-    //   </div>
-    //   <div class="container">
-    //   <p class="h2 mb-3 fw-semibold lh-small">Waza List here</p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="lh-base"> Text Here </p>
-    //   <p class="lh-base"> Text Here </p>
-    //   </div>
-    //   <div class="container">
-    //   <h1 class="display-6 mb-3 fw-semibold lh-small">More on MJER Research</h1>
-    //     <p>- wikipedia
-    //     - mjer world site</p>
-    //   </div>
-    //     `;
+    // display.innerHTML = `<p class="h1 text-center display-5 mb-3 fw-semibold lh-small">Coming Soon!</p>`
+    display.innerHTML = `
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          I want to check out a class! How do I start?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Great! For the Cambridge branch, attend any Monday or Thursday evening class at 7:15pm at the War Memorial Recreation Center with loose clothing such as a t-shirt and sweatpants. Please make it before 7:20pm as the front desk won't allow anyone past that time. </p>
+        <p>For the Salisbury branch, please let us know through the contact form so the instructor can prepare for your arrival. </p>
+        <strong>How old do I need to be able to practice Iaido?</strong>
+        <p class="lh-base"> Minimum age is 16. If you are younger, please feel free to come watch a class and speak with Sensei. </p>
+        <strong>I never done martial arts before. What do I need to prepare myself?</strong>
+        <p class="lh-base"> Nothing! Just loose clothing and show up. </p>
+        <strong>I have a martial arts background. Is it transferable?</strong>
+        <p class="lh-base"> Many of our students have various martial arts background that were able to transfer some skills. Since it is a swordsmanship, not many of us has a weapons background. Discipline and eagerness to learn are most definitely transferable! </p>
+        <strong>I did Kendo and would like to do Iaido. Is it difficult to transition over?</strong>
+        <p class="lh-base"> Depends on your training. You will quickly learn that Kendo and Iaido are two sides of the same coin. </p>
+        <strong>I have an injury. Can I still do Iaido?</strong>
+        <p class="lh-base"> Depending on the injury, we can work with you on other techniques to ensure safety and won't exacerbate injuries. </p>
+        <strong>How much does it all cost?</strong>
+        <p class="lh-base"> Tuition is $70 a month. Most online shops sell uniforms starting around $100. The practice sword (iaito) can start around $300. Typically, we do not make students get the uniform or iaito as soon as they start. Measurement assistance and permission to move on from a wooden sword to a practice sword will given by Sensei. Wooden swords are loaned out during class.</p> <p> If money is a barrier, please speak to Sensei or a senior student to see if we can work it out </p>
+        <strong>What federation are we a part of?</strong>
+        <p class="lh-base"> We are part of the World MJER Iaido Federation (一般社団法人　 正統正流無雙直傳英信流居合道国際連盟) (Ippan Shadan Hojin Seito Seiryu Muso Jikiden Eishin Ryu Iaido Kokusai Renmei) under Chairman Kenichi Kobara-Sensei. </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Been practicing with us for a while?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Class Terminology</strong> <p> Coming Soon!</p>
+          <strong>Etiquette</strong>
+          <p class="lh-base"> Coming Soon! </p>
+          <strong>Ranks</strong>
+          <p class="lh-base"> Coming Soon! </p>
+          <strong>Code of Conduct</strong>
+          <p class="lh-base"> Coming Soon! </p>
+          <strong>Are there any supplemental reading I can do?</strong>
+          <p class="lh-base"> Coming soon! </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Waza(Techniques) of MJER
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <div class="container">
+        <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
+        <h4 class="text-center mb-3 fw-semibold ">Battou Hou - Kihon/Basics (Omori Ryu)</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+                <ol type ="1">
+                  <li>Juntou</li>
+                  <li>Juntou Sono Ichi</li>
+                  <li>Juntou Sono Ni</li>
+                  <li>Tsuigekitou</li>
+                  <li>Shatou</li>
+                  <li>Shihoutou Sono Ichi</li>
+                  <li>Shihoutou Sono Ni</li>
+                  <li>Zantsotsutou</li>
+                </ol>
+              </div>
+              <div class="col">
+              </div>
+          </div>
+        </div>
+        <h4 class="text-center mb-3 fw-semibold ">Seiza no Bu - Shoden/Beginner (Omori Ryu)</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+              <ol type ="1">
+                <li>Mae</li>
+                <li>Migi</li>
+                <li>Hidari</li>
+                <li>Ushiro</li>
+                <li>Yaegaki</li>
+                <li>Ukenagashi</li>
+                <li>Kaishaku</li>
+                <li>Tsukekomi</li>
+                <li>Tsukikage</li>
+                <li>Oikaze</li>
+                <li>Nukiuchi</li>
+              </ol>
+              </div>
+              <div class="col">
+              </div>
+          </div>
+        </div>
+        <h4 class="text-center mb-3 fw-semibold ">Oku no Kata</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+              <ol type ="1">
+                <li>Zenteki Gyakutou</li>
+                <li>Tatekito</li>
+                <li>Kouteki Gyakutou</li>
+                <li>Kouteki Nukiuchi</li>
+              </ol>
+              </div>
+              <div class="col">
+              </div>
+          </div>
+        </div>
+        <h4 class="text-center mb-3 fw-semibold ">Tatehiza no Bu - Chuden/Intermediate (Eishin Ryu)</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+              <ol type="1">
+                <li>Yokogumo</li>
+                <li>Toraissoku</li>
+                <li>Inazuma</li>
+                <li>Ukigumo</li>
+                <li>Oroshi</li>
+                <li>Iwanami</li>
+                <li>Urokogaeshi</li>
+                <li>Namigaeshi</li>
+                <li>Takiotoshi</li>
+                <li>Makkou</li>
+              </ol>
+              </div>
+              <div class="col">
+              </div>
+          </div>
+        </div>
+        <h4 class="text-center mb-3 fw-semibold ">Okuiai Iwaza no Bu - Okuden (Inner transmission)</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col">
+              </div>
+              <div class="col">
+              <ol type="1">
+                <li>Kasumi</li>
+                <li>Sunegakoi</li>
+                <li>Tozome</li>
+                <li>Towaki</li>
+                <li>Shihougiri</li>
+                <li>Tanashita</li>
+                <li>Ryouzume</li>
+                <li>Torabashiri</li>
+              </ol>
+              </div>
+              <div class="col">
+              </div>
+          </div>
+        </div>
+        <h4 class="text-center mb-3 fw-semibold ">Okuiai Tachiwaza no Bu - Okuden (Inner transmission)</h4>
+        <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type="1">
+              <li>Yukizure</li>
+              <li>Tsuredachi</li>
+              <li>Sou Makuri</li>
+              <li>Sou Dome</li>
+              <li>Shinobu</li>
+              <li>Yukichigai</li>
+              <li>Sode Surigaeshi</li>
+              <li>Moniri</li>
+              <li>Kabezoe</li>
+              <li>Ukenagashi</li>
+              <li>Itomagoi Sono Ichi</li>
+              <li>Itomagoi Sono Ni</li>
+              <li>Itomagoi Sono San</li>
+            </ol>
+          </div>
+          <div class="col">
+          </div>
+      </div>
+    </div>
+      <p style="text-align:center">More information can be found on the official <a href="mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    `
   }
 
   if (page == "events") {
@@ -302,7 +487,7 @@ function load_page(page) {
     const display = document.querySelector("#other");
     display.innerHTML = `
         <div class="container">
-        <h1 class="display-6 mb-3 fw-semibold lh-small">The 9th Taikai - International Kokusa Renmei Seminar</h1>
+        <h1 class="display-6 mb-3 fw-semibold lh-small">The 9th Taikai - International Kokusai Renmei Seminar</h1>
         <p class="">Date: November 18th (Saturday), 2023<br>
         Location: Tokyo Budo-Kan<br>
         日本、〒120-0005 東京都足立区綾瀬３丁目２０−１<br>
@@ -413,7 +598,7 @@ function load_page(page) {
           <p>Cambridge Location:<br>
             <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d256.7889750049269!2d-71.10979141170108!3d42.374632506101364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37716f3ce0889%3A0x60896f2ae8ddbfac!2sBoston%20Iaido!5e0!3m2!1sen!2sus!4v1673154929993!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.1756891454265!2d-71.10993557461218!3d42.37471402663452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37716f3ce0889%3A0x60896f2ae8ddbfac!2sBoston%20Iaido!5e0!3m2!1sen!2sus!4v1702438187904!5m2!1sen!2sus"
               width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe><br>
           </div>
