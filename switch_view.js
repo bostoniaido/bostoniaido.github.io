@@ -266,7 +266,16 @@ function load_page(page) {
     <div class="container mt-4 pb-4">
       <div class="container">
           <h1 class="text-center mb-3">Instructors</h1>
-          // <p class="A table of 3 columns, 2 rows with name and dan"</p>
+          <div class="row">
+            <div class="col"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Renshi</p></div>
+            <div class="col"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
+            <div class="col"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 4th Dan</p></div>
+          <div>
+          <div class="row">
+            <div class="col"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 4th Dan</p></div>
+            <div class="col"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
+            <div class="col"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
+          </div>
       </div>
     </div>
           `;
@@ -486,6 +495,21 @@ function load_page(page) {
 
     const display = document.querySelector("#other");
     display.innerHTML = `
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">The 10th Taikai - International Kokusai Renmei Seminar</h1>
+        <p class="">Date: November 16th (Saturday), 2024<br>
+        Location: TBD <br>
+        Seminar Details: TBD </p>
+        </div>
+
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Festival Boston</h1>
+        <p class="">Date: April 27th - April 28th, 2024<br>
+        Location: Boston Common<br>
+        16 Charles Street, Boston, MA 02108<br>
+        EventDetails: <a href="https://www.japanfestivalboston.org/2024-festival">Information</a></p>
+        </div>
+
         <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">The 9th Taikai - International Kokusai Renmei Seminar</h1>
         <p class="">Date: November 18th (Saturday), 2023<br>
