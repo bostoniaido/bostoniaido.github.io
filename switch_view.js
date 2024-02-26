@@ -269,13 +269,16 @@ function load_page(page) {
           <div class="row">
             <div class="col"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Renshi</p></div>
             <div class="col"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
-            <div class="col"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 4th Dan</p></div>
+            <div class="col"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 3rd Dan</p></div>
           <div>
           <div class="row">
             <div class="col"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 4th Dan</p></div>
+            <div class="col"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 4th Dan</p></div>
             <div class="col"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
-            <div class="col"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
           </div>
+          <div class="row">
+            <div class="col"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
+          </div
       </div>
     </div>
           `;
