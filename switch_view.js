@@ -82,7 +82,7 @@ function load_page(page) {
           <h1 class="text-center mb-3">History of Eishin-Ryu</h1>
           <p class="">According to the Original Manuscript for the Art of Muso Jikiden Eishin-ryu Iaido from Muso Jikiden Eishin-ryu, 
           meaning "Peerless, Direct Transmission, True-Faith Style", is the most widely practiced style of Iaido in Japan. With a lineage of about 450 years, 
-          Eishin-Ryu is the second oldest martial art form in Japan.
+          Eishin-Ryu is one of the oldest martial art forms in Japan.
           </p>
 
           <p class="">The founder of Eishin-ryu was Hayashizaki Jinsuke Minamoto Shigenobu, who is also credited as the father of Shimmei Muso-ryu ("Divinely Inspired, Unparalleled Style"). 
@@ -96,7 +96,7 @@ function load_page(page) {
 
           <p class="">Today, Eishin-ryu is practiced by two to three thousand people in Japan, with many more dojos rapidly appearing all over the world. The administration of the system is primarily handled by the Eishin-ryu Traditions Association, led by the soke (the headmaster), 
           and by the All Japan Iaido Federation or Zen Nippon Iaido Renmei (ZNIR) (Japanese: 全日本居合道連盟), which oversees competitions and promotions in different iaido styles. However, since the 21st soke, the the lineage of Eishin-ryu has been contested which led to the creation of many organizations. 
-          As a result, people consider soke generally depends on the organization they belong to.
+          As a result, who people consider soke generally depends on the organization they belong to.
           </p>
       </div>
 
@@ -104,12 +104,12 @@ function load_page(page) {
         <h1 class="text-center display-6 mb-3 fw-semibold lh-small">World MJER Iaido Federation</h1>
         <h2 class="text-center mb-3">Founder Esaka Seigen</h2>
         <p class="">Esaka Hiroshi Seigen-Sensei founded the World MJER Iaido Federation (Japanese: 一般社団法人  正統正流無雙直傳英信流居合道国際連盟, lit. Seito Seiryu Muso Jikiden Eishin Ryu Iaido Kokusai Renmei) in April 2010 after leaving his post as co-founder at the All Japan Iaido Federation. 
-        Esaka-Sensei is a direct student of Kono Minoru Hyakuren, the 20th soke, and the 21st Soke, Fukui Tarao. Esaka-sensei teaches at his dojos in Shibuya (Tokyo) and Kita-Matsudo(Northeast of Tokyo). 
-        He holds a 10th dan and regulary instructs iaido practictioners of all levels in Japan, North America, and Europe. Esaka-sensei passed away in 2023.
+        Esaka-Sensei was a direct student of Kono Minoru Hyakuren, the 20th soke, and the 21st Soke, Fukui Tarao. Esaka-sensei taught at his dojos in Shibuya (Tokyo) and Kita-Matsudo(Northeast of Tokyo). 
+        He held a 10th dan and regulary instructed iaido practictioners of all levels in Japan, North America, and Europe. Esaka-sensei passed away in 2023.
         </p>
         <h2 class="text-center mb-3">Chairman Kobara Kenichi</h2>
-        <p class="">Kobara Kenichi-Sensei is a student of Esaka-Sensei since 1972 who also co-founded the World MJER Iaido Federation. Kobara-Sensei acts a direct assistant to Esaka-sensei and was appointed as a federation official instructor.
-        He has earned his 8th dan (Hanshi) in 2011. As of May 2021, Esaka-Sensei designated Kobara-Sensei as the new Representative Director of the federation. Kobara-sensei's dojo in Kisarazu, Chiba became the new headquaters.
+        <p class="">Kobara Kenichi-Sensei was a student of Esaka-Sensei since 1972 who also co-founded the World MJER Iaido Federation. Kobara-Sensei acts a direct assistant to Esaka-sensei and was appointed as a federation official instructor.
+        He earned his 8th dan (Hanshi) in 2011. As of May 2021, Esaka-Sensei designated Kobara-Sensei as the new Representative Director of the federation. Kobara-sensei's dojo in Kisarazu, Chiba became the new headquaters.
         </p>
       <div>
       <br>
@@ -246,8 +246,40 @@ function load_page(page) {
         <div class="col">
         </div>
     </div>
+    <h4 class="text-center mb-3 fw-semibold ">Tachi Uchi no Kurai</h4>
+      <div class="container">
+      <div class="row">
+          <div class="col">
+          </div>
+          <div class="col">
+          <ol type="1">
+            <li>Deai</li>
+            <li>Kobushitori</li>
+            <li>Zetsumyoken</li>
+            <li>Dokumyoken</li>
+            <li>Tsubadome</li>
+            <li>Ukenagashi</li>
+            <li>Mappo</li>
+          </ol>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+    <h4 class="text-center mb-3 fw-semibold ">Bangai no Bu</h4>
+      <div class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+        <ol type="1">
+        </ol>
+      </div>
+      <div class="col">
+      </div>
+    </div>
   </div>
-    <p style="text-align:center">More information can be found on the official <a href="mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
+    <p style="text-align:center">More information can be found on the official <a href="https://mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
   </div>
       </div>
     </div>
@@ -267,17 +299,17 @@ function load_page(page) {
       <div class="container">
           <h1 class="text-center mb-3">Instructors</h1>
           <div class="row">
-            <div class="col"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Renshi</p></div>
-            <div class="col"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
-            <div class="col"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 3rd Dan</p></div>
-          <div>
-          <div class="row">
-            <div class="col"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 4th Dan</p></div>
-            <div class="col"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 4th Dan</p></div>
-            <div class="col"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Renshi</p></div>
           </div>
           <div class="row">
-            <div class="col"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 3rd Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 4th Dan</p></div>
+          <div>
+          <div class="row">
+            <div class="col" style="text-align:center"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 4th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
           </div
       </div>
     </div>
@@ -323,10 +355,50 @@ function load_page(page) {
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Been practicing with us for a while?
+          I've decided to join the dojo, what do I need?!
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Wonderful!  Here's a short list of vendors and equipment we can recommend: </p>
+
+          <strong>Reputable Vendors</strong>
+          <p><a href="https://tozandoshop.com">Tozando</a></p>
+          <p><a href="https://seidoshop.com">Seido Shop</a></p>
+          <p><a href="https://e-bogu.com">E-bogu</a></p>
+          <p><a href="https://budo-aoi.com">Aoi Budogu</a></p>
+
+          <strong>Iaido Uniform</strong>
+          <p class="lh-base">As far as iaido practice clothing, you'll need a gi, hakama, obi, and knee pads.  Some students wear a juban (undershirt) as well.  Here are a few links to get you started:</p>
+          <p>Gi, Juban (undershirt), Hakama, Obi package (recommend adding a kaku-obi for an additional $22)
+          <p><a href="https://tozandoshop.com/collections/iaido-uniform-sets/products/basic-tetron-iaido-uniform-set">Basic Tetron Iaido Uniform Set</a></p>
+          
+          <p>Gi & Hakama set
+          <p><a href="https://www.e-bogu.com/Iaido-Gi-BLACK-Tetron-Hakama-Set-p/ebo-com-iai-giset.htm">Iaido Gi Black Tetron Hakama Set</a></p>
+          
+          <strong>Bokuto - Wooden Sword</strong>
+          <p class="lh-base"> For your sword, it is recommended that beginners start with a bokuto (wooden sword) and saya (sheath):
+          <p><a href="https://www.e-bogu.com/product-p/ebg-com-iai-boksaya-set-w.htm">E-Bogu Bokuto and Saya Set</a></p>
+          
+          <p><a href="https://tozandoshop.com/collections/iaido-bokuto/products/the-nyumon-iaido-beginners-set">Tozando Nyumon Iaido Beginner Set</a></p>
+          
+          <strong>Iaito - Practice Sword</strong>
+
+          <p class="lh-base">When you're ready to purchase an iaito, please confer with Sensei or a senior student before purchasing:</p>
+
+          <p><a href="https://tozandoshop.com/collections/iaito">Tozando Iaito Collection</a></p>
+          
+          <p><a href="https://www.seidoshop.com/collections/minosaka-iaito">Seido Shop Minosaka Iaito</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+          Been practicing with us for a while?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <strong>Class Terminology</strong> <p> Coming Soon!</p>
           <strong>Etiquette</strong>
@@ -341,12 +413,12 @@ function load_page(page) {
       </div>
     </div>
     <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Waza(Techniques) of MJER
         </button>
       </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
         <div class="accordion-body">
         <div class="container">
         <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
@@ -503,6 +575,14 @@ function load_page(page) {
         <p class="">Date: November 16th (Saturday), 2024<br>
         Location: TBD <br>
         Seminar Details: TBD </p>
+        </div>
+
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">2024 Vancouver - International Kokusai Renmei Seminar</h1>
+        <p class="">Date: Jun 7th - Jun 9th, 2024<br>
+        Location: UBC Student Recreation Centre Main Gym, 6000 Student Union Blvd, Vancouver, BC V6T 1Z1 <br>
+        Seminar Details:  <a href="https://www.vancouveriaido.com/registration">Seminar Information</a></p>
+        </div> </p>
         </div>
 
         <div class="container">
