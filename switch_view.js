@@ -27,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function load_page(page) {
+  // Track the view switch event with Google Analytics
+  gtag('event', 'page_switch', {
+      'event_category': 'View',
+      'event_label': page
+  });
+
   // if home page, load html
   if (page == "home") {
     window.location = "index.html";
