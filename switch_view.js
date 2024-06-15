@@ -407,7 +407,7 @@ function load_page(page) {
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <strong>Terminology, Definitions, Ranks and Titles</strong>
-          <p><a href="iaido_terminology.pdf">Download here</a></p>
+          <p><a href="https://www.bostoniaido.com/iaido_terminology.pdf" target="_blank" rel="noopener noreferrer">Download here</a></p>
           <strong>Etiquette</strong>
           <p class="lh-base"> Coming Soon! </p>
           <strong>Code of Conduct</strong>
