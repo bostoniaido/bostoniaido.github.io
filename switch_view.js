@@ -583,6 +583,14 @@ function load_page(page) {
         </div>
 
         <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">2024 European Kokusai Renmei Seminar</h1>
+        <p class="">Date: September 12th - 15th2024<br>
+        Location: Sportzentrum, Puschkinstraße 2, 15537 Grünheide (Mark), Kienbaum, Germany <br>
+        Instructors: Kobara Kenichi Sensei, DeNoon Yoshihito Daniel Sensei, Matsumoto Hideaki Sensei
+        Seminar Details: <a href="https://iaidoverband.org/lehrgaenge/">Seminar Information</a></p>
+        </div>
+
+        <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">2024 Vancouver - International Kokusai Renmei Seminar</h1>
         <p class="">Date: Jun 7th - Jun 9th, 2024<br>
         Location: UBC Student Recreation Centre Main Gym, 6000 Student Union Blvd, Vancouver, BC V6T 1Z1 <br>
@@ -595,7 +603,7 @@ function load_page(page) {
         <p class="">Date: April 27th - April 28th, 2024<br>
         Location: Boston Common<br>
         16 Charles Street, Boston, MA 02108<br>
-        EventDetails: <a href="https://www.japanfestivalboston.org/2024-festival">Information</a></p>
+        Event Details: <a href="https://www.japanfestivalboston.org/2024-festival">Information</a></p>
         </div>
 
         <div class="container">
