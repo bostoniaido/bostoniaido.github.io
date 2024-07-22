@@ -41,22 +41,13 @@ function load_page(page) {
       document.querySelectorAll('input[name="dojo"]:checked');
       let values = [];
       selectDojos.forEach((checkbox) => {
-        const d = values.join();
+        // 
+        values.push(checkbox.value)
         // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d
-        document.getElementById("subjectline").value += " - " + d;
-        console.log(checkbox.value);
+        // document.getElementById("subjectline").value += " - " + d;
       });
+      document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d
     });
-    
-
-    // checkBox1.addEventListener("checked", ()=> {
-    //   if (checkBox1.checked) {
-    //     console.log(checkBox1.checked)
-    //     display.
-    //   }
-    // }
-   
-
   }
 
   if (page == "contact") {
