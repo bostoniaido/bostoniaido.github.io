@@ -36,6 +36,27 @@ function load_page(page) {
   // if home page, load html
   if (page == "home") {
     window.location = "index.html";
+    const selectDojos = querySelector('#btn');
+    selectDojos.addEventListener('click', (event) => {
+      document.querySelectorAll('input[name="dojo"]:checked');
+      let values = [];
+      selectDojos.forEach((checkbox) => {
+        const d = values.join();
+        // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d
+        document.getElementById("subjectline").value += " - " + d;
+        console.log(checkbox.value);
+      });
+    });
+    
+
+    // checkBox1.addEventListener("checked", ()=> {
+    //   if (checkBox1.checked) {
+    //     console.log(checkBox1.checked)
+    //     display.
+    //   }
+    // }
+   
+
   }
 
   if (page == "contact") {
