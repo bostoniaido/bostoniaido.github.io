@@ -43,12 +43,9 @@ function load_page(page) {
       checkboxes.forEach((checkbox) => {
         values.push(checkbox.value);
         // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
-        // document.querySelector("subjectline").value += " " + values.join();
       });
       const constructStr = "Boston Iaido Interest! - " + values.join();
-      let subject = document.getElementById("subjectline")
-      subject.value = constructStr;
-
+      document.getElementById("subjectline").value = constructStr;
     });
   };
 
