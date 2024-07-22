@@ -43,12 +43,12 @@ function load_page(page) {
       selectDojos.forEach((checkbox) => {
         // 
         values.push(checkbox.value);
-        // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d
-        // document.getElementById("subjectline").value += " - " + d;
+        document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
+        document.getElementById("subjectline").value += " - " + values.join();
       });
-      // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + values.join()
+      document.getElementById("subjectline").value = "Boston Iaido Interest! - " + values.join();
     });
-    document.getElementById("subjectline").value = "Boston Iaido Interest! - " + values.join();
+    // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + values.join();
   }
 
   if (page == "contact") {
