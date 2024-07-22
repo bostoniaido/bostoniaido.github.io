@@ -43,10 +43,12 @@ function load_page(page) {
       checkboxes.forEach((checkbox) => {
         values.push(checkbox.value);
         // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
-        document.querySelector("subjectline").value += " " + values.join();
+        // document.querySelector("subjectline").value += " " + values.join();
       });
       const constructStr = "Boston Iaido Interest! - " + values.join();
-      document.querySelector("subjectline").value = constructStr;
+      let subject = document.getElementById("subjectline")
+      subject.value = constructStr;
+
     });
   };
 
