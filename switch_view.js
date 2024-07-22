@@ -38,12 +38,11 @@ function load_page(page) {
     window.location = "index.html";
     const selectDojos = querySelector('#btn');
     selectDojos.addEventListener('click', (event) => {
-      document.querySelectorAll('input[name="dojo"]:checked');
+      let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
       let values = [];
-      selectDojos.forEach((checkbox) => {
-        // 
+      checkboxes.forEach((checkbox) => {
         values.push(checkbox.value);
-        document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
+        // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
         document.getElementById("subjectline").value += " - " + values.join();
       });
       document.getElementById("subjectline").value = "Boston Iaido Interest! - " + values.join();
