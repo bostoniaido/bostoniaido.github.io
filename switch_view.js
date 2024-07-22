@@ -45,9 +45,9 @@ function load_page(page) {
         // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
         document.querySelector("subjectline").value += " " + values.join();
       });
-      document.querySelector("subjectline").value += "Boston Iaido Interest! - " + values.join();
+      const constructStr = "Boston Iaido Interest! - " + values.join();
+      document.querySelector("subjectline").value = constructStr;
     });
-    document.querySelector("subjectline").value += "Boston Iaido Interest! - " + values.join();
   };
 
   if (page == "contact") {
