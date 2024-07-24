@@ -54,7 +54,7 @@ function load_page(page) {
   // if home page, load html
   if (page == "home") {
     window.location = "index.html";
-    const selectDojos = querySelector('#btn');
+    const selectDojos = document.getElementById('form');
     selectDojos.addEventListener('submit', constructStr);
     //  => {
       //
