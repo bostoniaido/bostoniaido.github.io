@@ -33,31 +33,42 @@ function load_page(page) {
       'event_label': page
   });
 
+  // subject line function
+  function constructStr() {
+    var subjectLine = "Boston Iaido Interest! ";
+    var cam = document.getElementById("camDojo").checked;
+    var sal = document.getElementById("salDojo").checked;
+    var med = document.getElementById("medDojo").checked;
+    if (cam)
+      subjectLine += "Cambridge ";
+    if (sal)
+      subjectLine += "Salisbury ";
+    if (med)
+      subjectLine += "Medford ";
+    var hiddenFieldSubjectLine = document.getElementById("subjectline");
+    hiddenFieldSubjectLine.value = subjectLine;
+    document.getElementById("contactUsForm").submit();
+  }
+
+
   // if home page, load html
   if (page == "home") {
     window.location = "index.html";
     const selectDojos = querySelector('#btn');
-    selectDojos.addEventListener('submit', (event) => {
-      // var subjectLine = "Boston Iaido Interest!";
-      // var cam = document.getElementById("camDojo").checked;
-      // var sal = document.getElementById("salDojo").checked;
-      // var med = document.getElementById("medDojo").checked;
-      // if (cam)
-      //   subjectLine += "Cambridge ";
-      // if (sal)
-      //   subjectLine += "Salisbury ";
-      // if (med)
-      //   subjectLine += "Medford ";
-      let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
-      let values = [];
-      checkboxes.forEach((checkbox) => {
-        values.push(checkbox.value);
-        // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
-      });
-      const constructStr = "Boston Iaido Interest! - " + values.join();
-      document.getElementById("subjectline").value = subjectLine;
-    });
-  };
+    selectDojos.addEventListener('submit', constructStr);
+    //  => {
+      //
+      // let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
+      // let values = [];
+      // checkboxes.forEach((checkbox) => {
+      //   values.push(checkbox.value);
+      //   // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
+      // });
+      // const constructStr = "Boston Iaido Interest! - " + values.join();
+      // document.getElementById("subjectline").value = subjectLine;
+  }
+    // });
+  // };
 
   if (page == "contact") {
     document.querySelector("#other").style.display = "block";
