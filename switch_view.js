@@ -34,7 +34,8 @@ function load_page(page) {
   });
 
   // subject line function
-  function constructStr() {
+  function constructStr(e) {
+    e.preventDefault()
     var subjectLine = "Boston Iaido Interest! ";
     var cam = document.getElementById("camDojo").checked;
     var sal = document.getElementById("salDojo").checked;
@@ -55,7 +56,7 @@ function load_page(page) {
   if (page == "home") {
     window.location = "index.html";
     const selectDojos = document.getElementById('form');
-    selectDojos.addEventListener('submit', constructStr);
+    selectDojos.addEventListener('submit', constructStr(e));
     //  => {
       //
       // let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
