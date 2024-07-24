@@ -48,7 +48,7 @@ function load_page(page) {
       subjectLine += "Medford ";
     var hiddenFieldSubjectLine = document.getElementById("subjectline");
     hiddenFieldSubjectLine.value = subjectLine;
-    document.getElementById("contactUsForm").submit();
+    selectDojos.submit();
   }
 
 
