@@ -37,24 +37,24 @@ function load_page(page) {
   if (page == "home") {
     window.location = "index.html";
     const selectDojos = querySelector('#btn');
-    selectDojos.addEventListener('click', (event) => {
-      var subjectLine = "Boston Iaido Interest!";
-      var cam = document.getElementById("camDojo").checked;
-      var sal = document.getElementById("salDojo").checked;
-      var med = document.getElementById("medDojo").checked;
-      if (cam)
-        subjectLine += "Cambridge ";
-      if (sal)
-        subjectLine += "Salisbury ";
-      if (med)
-        subjectLine += "Medford ";
-      // let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
-      // let values = [];
-      // checkboxes.forEach((checkbox) => {
-      //   values.push(checkbox.value);
-      //   // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
-      // });
-      // const constructStr = "Boston Iaido Interest! - " + values.join();
+    selectDojos.addEventListener('submit', (event) => {
+      // var subjectLine = "Boston Iaido Interest!";
+      // var cam = document.getElementById("camDojo").checked;
+      // var sal = document.getElementById("salDojo").checked;
+      // var med = document.getElementById("medDojo").checked;
+      // if (cam)
+      //   subjectLine += "Cambridge ";
+      // if (sal)
+      //   subjectLine += "Salisbury ";
+      // if (med)
+      //   subjectLine += "Medford ";
+      let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
+      let values = [];
+      checkboxes.forEach((checkbox) => {
+        values.push(checkbox.value);
+        // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
+      });
+      const constructStr = "Boston Iaido Interest! - " + values.join();
       document.getElementById("subjectline").value = subjectLine;
     });
   };
