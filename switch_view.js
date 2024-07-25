@@ -21,6 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .querySelector("#contact")
     .addEventListener("click", () => load_page("contact"));
+  document
+    .querySelector("#btn")
+    .addEventListener("click", () => sendMail());
 
   // Load main
   // load_page('main');
