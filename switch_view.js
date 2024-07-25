@@ -26,15 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // load_page('main');
 });
 
-function load_page(page) {
-  // Track the view switch event with Google Analytics
-  gtag('event', 'page_switch', {
-      'event_category': 'View',
-      'event_label': page
-  });
 
-  // send mail function
-  function sendMail()
+// send mail function
+function sendMail()
   {
       var subjectLine = "Boston Iaido Interest! - ";
 
@@ -58,6 +52,15 @@ function load_page(page) {
       //Submit the form
       document.getElementById("contactUsForm").submit();
   }
+
+
+
+function load_page(page) {
+  // Track the view switch event with Google Analytics
+  gtag('event', 'page_switch', {
+      'event_category': 'View',
+      'event_label': page
+  });
 
 
 
