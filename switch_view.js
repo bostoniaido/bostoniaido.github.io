@@ -33,23 +33,32 @@ function load_page(page) {
       'event_label': page
   });
 
-  // subject line function
-  function constructStr(e) {
-    e.preventDefault()
-    var subjectLine = "Boston Iaido Interest! ";
-    var cam = document.getElementById("camDojo").checked;
-    var sal = document.getElementById("salDojo").checked;
-    var med = document.getElementById("medDojo").checked;
-    if (cam)
-      subjectLine += "Cambridge ";
-    if (sal)
-      subjectLine += "Salisbury ";
-    if (med)
-      subjectLine += "Medford ";
-    var hiddenFieldSubjectLine = document.getElementById("subjectline");
-    hiddenFieldSubjectLine.value = subjectLine;
-    selectDojos.submit();
+  // send mail function
+  function sendMail()
+  {
+      var subjectLine = "Boston Iaido Interest! - ";
+
+      //get the checkboxes
+      var cam = document.getElementById("camDojo").checked;
+      var sal = document.getElementById("salDojo").checked;
+      var med = document.getElementById("medDojo").checked;
+
+      //Create subject line text
+      if (cam)
+          subjectLine += "Cambridge ";
+      if (sal)
+          subjectLine += "Salisbury ";
+      if (med)
+          subjectLine += "Medford ";
+
+      //Add subject line to hidden field
+      var hiddenFieldSubjectLine = document.getElementById("subjectline");
+      hiddenFieldSubjectLine.value = subjectLine;
+
+      //Submit the form
+      document.getElementById("contactUsForm").submit();
   }
+
 
 
   // if home page, load html
