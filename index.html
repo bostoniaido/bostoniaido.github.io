@@ -277,6 +277,32 @@
     crossorigin="anonymous"></script>
   <script src="switch_view.js"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script>
+    function sendMail()
+    {
+        var subjectLine = "New request for: ";
+
+        //get the checkboxes
+        var cam = document.getElementById("camDojo").checked;
+        var sal = document.getElementById("salDojo").checked;
+        var med = document.getElementById("medDojo").checked;
+
+        //Create subject line text
+        if (cam)
+            subjectLine += "Cambridge ";
+        if (sal)
+            subjectLine += "Salisbury ";
+        if (med)
+            subjectLine += "Medford ";
+
+        //Add subject line to hidden field
+        var hiddenFieldSubjectLine = document.getElementById("subjectline");
+        hiddenFieldSubjectLine.value = subjectLine;
+
+        //Submit the form
+        document.getElementById("contactUsForm").submit();
+    }
+</script>
 
 </body>
 
