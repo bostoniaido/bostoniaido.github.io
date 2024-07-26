@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function sendMail()
   {
       var subjectLine = "Boston Iaido Interest! - ";
+	    var dojoLine = "";
 
       //get the checkboxes
       var cam = document.getElementById("camDojo").checked;
@@ -43,14 +44,22 @@ function sendMail()
       //Create subject line text
       if (cam)
           subjectLine += "Cambridge ";
+		      dojoLine += "Cambridge ";
       if (sal)
           subjectLine += "Salisbury ";
+		      dojoLine += "Salisbury ";
       if (med)
           subjectLine += "Medford ";
+	        dojoLine += "Medford ";
 
       //Add subject line to hidden field
       var hiddenFieldSubjectLine = document.getElementById("subjectline");
       hiddenFieldSubjectLine.value = subjectLine;
+
+      //Add dojo line to hidden field
+      var hiddenFieldDojoLine = document.getElementById("dojoLine");
+      hiddenFieldDojoLine.value = dojoLine;
+	
 
       //Submit the form
       document.getElementById("contactUsForm").submit();
