@@ -42,15 +42,18 @@ function sendMail()
       var med = document.getElementById("medDojo").checked;
 
       //Create subject line text
-      if (cam)
+      if (cam){
           subjectLine += "Cambridge ";
 		      dojoLine += "Cambridge ";
-      if (sal)
+      }
+      if (sal){
           subjectLine += "Salisbury ";
 		      dojoLine += "Salisbury ";
-      if (med)
+      }
+      if (med){
           subjectLine += "Medford ";
 	        dojoLine += "Medford ";
+      }
 
       //Add subject line to hidden field
       var hiddenFieldSubjectLine = document.getElementById("subjectline");
