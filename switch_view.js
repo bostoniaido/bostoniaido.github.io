@@ -110,27 +110,47 @@ function load_page(page) {
       <p class="text-center">If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
     </div>
     <div class="container">
-        <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
-        <div class="form-group">
-          <div class="row">
-            <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-            </div>
-            <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-            </div>
+      <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
+          <div class="form-group">
+              <div class="row">
+                  <div class="col">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
+                  <label class="form-check-label" for="cambridge">
+                      Cambridge
+                  </label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
+                  <label class="form-check-label" for="salisbury">
+                      Salisbury
+                  </label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
+                  <label class="form-check-label" for="malden">
+                    Medford
+                  </label>
+              </div>
           </div>
-        </div>
-        <div class="form-group">
-          <br>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-          <br>
-        </div>
-        <div class="d-grid gap-2">
-        <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
-      </div>
-      <input type="hidden" name="_cc" value="cmtaylor@gmail.com">
-      <input type="hidden" name="_subject" value="Boston Iaido Interest!">
+          <div class="form-group">
+              <br>
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+              <br>
+          </div>
+          <div class="d-grid gap-2">
+              <a id="btn" class="btn btn-dark btn-primary">Submit Form</a>
+          </div>
+          <!-- <input type="hidden" name="_cc" value=bostoniaido@gmail.com> -->
+          <input type="hidden" name="_cc" value=cmtaylor@gmail.com>
+          <input type="hidden" id="subjectline" name="_subject" value="Boston Iaido Interest!">
+          <input type="hidden" id="dojoLine" name="dojo" value="dojo names should overwrite this">
       </form>
     </div>
   </div>
