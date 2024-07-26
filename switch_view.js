@@ -154,8 +154,9 @@ function load_page(page) {
     </div>
   </div>
     `;
-    const selectDojos = document.getElementById('form');
-    selectDojos.addEventListener('submit', constructStr(e));
+    document
+    .querySelector("#btn")
+    .addEventListener("click", () => sendMail());
   }
 
   if (page == "history") {
