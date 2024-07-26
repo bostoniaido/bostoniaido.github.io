@@ -145,7 +145,7 @@ function load_page(page) {
               <br>
           </div>
           <div class="d-grid gap-2">
-              <a id="btn" class="btn btn-dark btn-primary">Submit Form</a>
+              <a id="btn" onclick="sendMail()" class="btn btn-dark btn-primary">Submit Form</a>
           </div>
           <input type="hidden" name="_cc" value=cmtaylor@gmail.com>
           <input type="hidden" id="subjectline" name="_subject" value="Boston Iaido Interest!">
