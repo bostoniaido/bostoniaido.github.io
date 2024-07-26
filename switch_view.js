@@ -110,28 +110,48 @@ function load_page(page) {
       <p class="text-center">If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
     </div>
     <div class="container">
-        <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
-        <div class="form-group">
-          <div class="row">
+    <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
+    <div class="form-group">
+        <div class="row">
             <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
             </div>
             <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
             </div>
-          </div>
         </div>
-        <div class="form-group">
-          <br>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-          <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
+            <label class="form-check-label" for="cambridge">
+                Cambridge
+            </label>
         </div>
-        <div class="d-grid gap-2">
-        <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
-      </div>
-      <input type="hidden" name="_cc" value="bostoniaido@gmail.com">
-      <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      </form>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
+            <label class="form-check-label" for="salisbury">
+                Salisbury
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
+            <label class="form-check-label" for="malden">
+               Medford
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <br>
+        <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+        <br>
+    </div>
+    <div class="d-grid gap-2">
+        <a id="btn" class="btn btn-dark btn-primary">Submit Form</a>
+    </div>
+    <!-- <input type="hidden" name="_cc" value=bostoniaido@gmail.com> -->
+    <input type="hidden" name="_cc" value=cmtaylor@gmail.com>
+    <input type="hidden" id="subjectline" name="_subject" value="Boston Iaido Interest!">
+    <input type="hidden" id="dojoLine" name="dojo" value="dojo names should overwrite this">
+</form>
     </div>
   </div>
     `;
@@ -793,7 +813,7 @@ function load_page(page) {
             </div>
             <div class="col">
               <p>Tuition:<br>
-              $70 a month</p>
+              $70 a month.</p>
             </div>
           </div>
           <div class="row">
@@ -815,9 +835,27 @@ function load_page(page) {
                 $70 a month with the ability to go the Cambridge dojo in case of Salisbury dojo closure.</p>
                 </div>
               </div>
+              <div class="row">
+            <div class="col">
+              <p>Medford Location:<br>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.4896336149022!2d-71.10939295662307!3d42.4173117334005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3714a7450a081%3A0xce5583c9da882e5b!2sXtreme%20Ninja%20Martial%20Arts%20%26%20Fitness%20Center!5e0!3m2!1sen!2sus!4v1722006908673!5m2!1sen!2sus" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+              </div>
+                  Xtreme Ninja Martial Arts Center<br>
+                  45 Riverside Ave<br>
+                  Medford, MA 02155</p>
+                </div>
+                <div class="col">
+                  <p>Medford Schedule:<br>
+                    Sunday: 9:00 AM to 11:00 AM<br></p>
+                </div>
+                <div class="col">
+                <p>Tuition:<br>
+                $70 a month.</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
 
       <div class="mt-5 mb-3" id="spacer"></div>
@@ -827,28 +865,48 @@ function load_page(page) {
       <p class="text-center">Still have more questions? If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
     </div>
     <div class="container">
-        <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
-        <div class="form-group">
-          <div class="row">
+    <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
+    <div class="form-group">
+        <div class="row">
             <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
             </div>
             <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
             </div>
-          </div>
         </div>
-        <div class="form-group">
-          <br>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-          <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
+            <label class="form-check-label" for="cambridge">
+                Cambridge
+            </label>
         </div>
-        <div class="d-grid gap-2">
-        <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
-      </div>
-      <input type="hidden" name="_cc" value="bostoniaido@gmail.com">
-      <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      </form>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
+            <label class="form-check-label" for="salisbury">
+                Salisbury
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
+            <label class="form-check-label" for="malden">
+               Medford
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <br>
+        <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+        <br>
+    </div>
+    <div class="d-grid gap-2">
+        <a id="btn" class="btn btn-dark btn-primary">Submit Form</a>
+    </div>
+    <!-- <input type="hidden" name="_cc" value=bostoniaido@gmail.com> -->
+    <input type="hidden" name="_cc" value=cmtaylor@gmail.com>
+    <input type="hidden" id="subjectline" name="_subject" value="Boston Iaido Interest!">
+    <input type="hidden" id="dojoLine" name="dojo" value="dojo names should overwrite this">
+</form>
     </div>
   </div>
 </div>
