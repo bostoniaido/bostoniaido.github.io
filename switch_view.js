@@ -145,7 +145,7 @@ function load_page(page) {
               <br>
           </div>
           <div class="d-grid gap-2">
-              <a id="btn" onclick="sendMail()" class="btn btn-dark btn-primary">Submit Form</a>
+              <a id="btn" class="btn btn-dark btn-primary">Submit Form</a>
           </div>
           <!-- <input type="hidden" name="_cc" value=bostoniaido@gmail.com> -->
           <input type="hidden" name="_cc" value=cmtaylor@gmail.com>
@@ -155,9 +155,6 @@ function load_page(page) {
     </div>
   </div>
     `;
-    document
-    .querySelector("#btn")
-    .addEventListener("click", () => sendMail());
   }
 
   if (page == "history") {
