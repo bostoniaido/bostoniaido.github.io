@@ -71,7 +71,6 @@ function load_page(page) {
       </div>
       <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
       <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      <input type="hidden" name="_webhook" value="https://discord.com/api/webhooks/1283242304747995208/dUBGVXN3QhhXLJlIZ2vJ2YudeJF64PmcvYZzjBkO5ZxJQssbK2ZXnwUkC6Io0iLf94Ro">
       </form>
     </div>
   </div>
@@ -810,7 +809,6 @@ function load_page(page) {
       </div>
       <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
       <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      <input type="hidden" name="_webhook" value="https://discord.com/api/webhooks/1283242304747995208/dUBGVXN3QhhXLJlIZ2vJ2YudeJF64PmcvYZzjBkO5ZxJQssbK2ZXnwUkC6Io0iLf94Ro">
       </form>
     </div>
   </div>
