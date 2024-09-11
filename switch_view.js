@@ -885,7 +885,7 @@ function load_page(page) {
         <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
       </div>
 
-      <input type="hidden" name="_cc" value="cmtaylor978@gmail.com">
+      <input type="hidden" name="_cc" value="cmtaylor978@gmail.com, bostoniaido@gmail.com">
       <input type="hidden" name="_subject" value="Boston Iaido Interest!">
       </form>
     </div>
