@@ -7,12 +7,12 @@ async function sendContact(ev) {
       .getElementById('emailInput').value;
     const senderMessage = document
       .getElementById('messageInput').value;
-    const subject = document
-      .getElementById('subject').value;
+    const subjectLine = document
+      .getElementById('subjectLine').value;
 
     const webhookBody = {
       embeds: [{
-        title: subject,
+        title: subjectLine,
         fields: [
           { name: 'Name', value: senderName },  
           { name: 'Sender', value: senderEmail },
