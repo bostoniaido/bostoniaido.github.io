@@ -21,10 +21,54 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .querySelector("#contact")
     .addEventListener("click", () => load_page("contact"));
+  document
+    .querySelector("#btn")
+    .addEventListener("click", () => sendMail());
 
   // Load main
   // load_page('main');
 });
+
+
+// send mail function
+function sendMail()
+  {
+      var subjectLine = "Boston Iaido Interest! - ";
+	    var dojoLine = "";
+
+      //get the checkboxes
+      var cam = document.getElementById("camDojo").checked;
+      var sal = document.getElementById("salDojo").checked;
+      var med = document.getElementById("medDojo").checked;
+
+      //Create subject line text
+      if (cam){
+          subjectLine += "Cambridge ";
+		      dojoLine += "Cambridge ";
+      }
+      if (sal){
+          subjectLine += "Salisbury ";
+		      dojoLine += "Salisbury ";
+      }
+      if (med){
+          subjectLine += "Medford ";
+	        dojoLine += "Medford ";
+      }
+
+      //Add subject line to hidden field
+      var hiddenFieldSubjectLine = document.getElementById("subjectline");
+      hiddenFieldSubjectLine.value = subjectLine;
+
+      //Add dojo line to hidden field
+      var hiddenFieldDojoLine = document.getElementById("dojoLine");
+      hiddenFieldDojoLine.value = dojoLine;
+	
+
+      //Submit the form
+      document.getElementById("contactUsForm").submit();
+  }
+
+
 
 function load_page(page) {
   // Track the view switch event with Google Analytics
@@ -33,10 +77,13 @@ function load_page(page) {
       'event_label': page
   });
 
+
+
   // if home page, load html
   if (page == "home") {
     window.location = "index.html";
-  }
+    const selectDojos = document.getElementById('form');
+    selectDojos.addEventListener('submit', constructStr(e));
 
   if (page == "contact") {
     document.querySelector("#other").style.display = "block";
@@ -50,16 +97,36 @@ function load_page(page) {
       <p class="text-center">If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
     </div>
     <div class="container">
-        <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
-        <div class="form-group">
-          <div class="row">
-            <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-            </div>
-            <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-            </div>
+      <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
+          <div class="form-group">
+              <div class="row">
+                  <div class="col">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
+                  <label class="form-check-label" for="cambridge">
+                      Cambridge
+                  </label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
+                  <label class="form-check-label" for="salisbury">
+                      Salisbury
+                  </label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
+                  <label class="form-check-label" for="malden">
+                    Medford
+                  </label>
+              </div>
           </div>
+
         </div>
         <div class="form-group">
           <br>
@@ -754,7 +821,7 @@ function load_page(page) {
             </div>
             <div class="col">
               <p>Tuition:<br>
-              $70 a month</p>
+              $70 a month.</p>
             </div>
           </div>
           <div class="row">
@@ -776,9 +843,27 @@ function load_page(page) {
                 $70 a month with the ability to go the Cambridge dojo in case of Salisbury dojo closure.</p>
                 </div>
               </div>
+              <div class="row">
+            <div class="col">
+              <p>Medford Location:<br>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.4896336149022!2d-71.10939295662307!3d42.4173117334005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3714a7450a081%3A0xce5583c9da882e5b!2sXtreme%20Ninja%20Martial%20Arts%20%26%20Fitness%20Center!5e0!3m2!1sen!2sus!4v1722006908673!5m2!1sen!2sus" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+              </div>
+                  Xtreme Ninja Martial Arts Center<br>
+                  45 Riverside Ave<br>
+                  Medford, MA 02155</p>
+                </div>
+                <div class="col">
+                  <p>Medford Schedule:<br>
+                    Sunday: 9:00 AM to 11:00 AM<br></p>
+                </div>
+                <div class="col">
+                <p>Tuition:<br>
+                $70 a month.</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
 
       <div class="mt-5 mb-3" id="spacer"></div>
