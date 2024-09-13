@@ -84,6 +84,7 @@ function load_page(page) {
     window.location = "index.html";
     const selectDojos = document.getElementById('form');
     selectDojos.addEventListener('submit', constructStr(e));
+  }
 
   if (page == "contact") {
     document.querySelector("#other").style.display = "block";
