@@ -84,19 +84,6 @@ function load_page(page) {
     window.location = "index.html";
     const selectDojos = document.getElementById('form');
     selectDojos.addEventListener('submit', constructStr(e));
-    //  => {
-      //
-      // let checkboxes = document.querySelectorAll('input[name="dojo"]:checked');
-      // let values = [];
-      // checkboxes.forEach((checkbox) => {
-      //   values.push(checkbox.value);
-      //   // document.getElementById("subjectline").value = "Boston Iaido Interest! - " + d;
-      // });
-      // const constructStr = "Boston Iaido Interest! - " + values.join();
-      // document.getElementById("subjectline").value = subjectLine;
-  }
-    // });
-  // };
 
   if (page == "contact") {
     document.querySelector("#other").style.display = "block";
@@ -883,7 +870,6 @@ function load_page(page) {
         <div class="d-grid gap-2">
         <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
       </div>
-
       <input type="hidden" name="_cc" value="cmtaylor978@gmail.com, bostoniaido@gmail.com">
       <input type="hidden" name="_subject" value="Boston Iaido Interest!">
       </form>
