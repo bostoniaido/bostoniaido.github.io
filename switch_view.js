@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .querySelector("#location")
     .addEventListener("click", () => load_page("location"));
-  document
-    .querySelector("#contact")
-    .addEventListener("click", () => load_page("contact"));
+  // document
+  //   .querySelector("#contact")
+  //   .addEventListener("click", () => load_page("contact"));
   document
     .querySelector("#btn")
     .addEventListener("click", () => sendMail());
@@ -86,64 +86,64 @@ function load_page(page) {
     selectDojos.addEventListener('submit', constructStr(e));
   }
 
-  if (page == "contact") {
-    document.querySelector("#other").style.display = "block";
-    document.querySelector("#main").style.display = "none";
+  // if (page == "contact") {
+  //   document.querySelector("#other").style.display = "block";
+  //   document.querySelector("#main").style.display = "none";
 
-    const display = document.querySelector("#other");
-    display.innerHTML = ` 
-    <div class="container pb-4">
-    <h1 class="text-center display-6 mb-3 fw-semibold lh-small" id="contact">Contact Us</h1>
-    <div class="container">
-      <p class="text-center">If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
-    </div>
-    <div class="container">
-      <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
-          <div class="form-group">
-              <div class="row">
-                  <div class="col">
-                      <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                  </div>
-                  <div class="col">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                  </div>
-              </div>
-              <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
-                  <label class="form-check-label" for="cambridge">
-                      Cambridge
-                  </label>
-              </div>
-              <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
-                  <label class="form-check-label" for="salisbury">
-                      Salisbury
-                  </label>
-              </div>
-              <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
-                  <label class="form-check-label" for="malden">
-                    Medford
-                  </label>
-              </div>
-          </div>
+  //   const display = document.querySelector("#other");
+  //   display.innerHTML = ` 
+  //   <div class="container pb-4">
+  //   <h1 class="text-center display-6 mb-3 fw-semibold lh-small" id="contact">Contact Us</h1>
+  //   <div class="container">
+  //     <p class="text-center">If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
+  //   </div>
+  //   <div class="container">
+  //     <form target="_blank" action=https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352 method="POST" id="contactUsForm">
+  //         <div class="form-group">
+  //             <div class="row">
+  //                 <div class="col">
+  //                     <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+  //                 </div>
+  //                 <div class="col">
+  //                     <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+  //                 </div>
+  //             </div>
+  //             <div class="form-check form-check-inline">
+  //                 <input class="form-check-input" type="checkbox" name="dojo" value="Cambridge" id="camDojo">
+  //                 <label class="form-check-label" for="cambridge">
+  //                     Cambridge
+  //                 </label>
+  //             </div>
+  //             <div class="form-check form-check-inline">
+  //                 <input class="form-check-input" type="checkbox" name="dojo" value="Salisbury" id="salDojo">
+  //                 <label class="form-check-label" for="salisbury">
+  //                     Salisbury
+  //                 </label>
+  //             </div>
+  //             <div class="form-check form-check-inline">
+  //                 <input class="form-check-input" type="checkbox" name="dojo" value="Medford" id="medDojo">
+  //                 <label class="form-check-label" for="malden">
+  //                   Medford
+  //                 </label>
+  //             </div>
+  //         </div>
 
-        </div>
-        <div class="form-group">
-          <br>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-          <br>
-        </div>
-        <div class="d-grid gap-2">
-        <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
-      </div>
-      <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
-      <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      </form>
-    </div>
-  </div>
-    `;
-  }
+  //       </div>
+  //       <div class="form-group">
+  //         <br>
+  //         <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+  //         <br>
+  //       </div>
+  //       <div class="d-grid gap-2">
+  //       <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
+  //     </div>
+  //     <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
+  //     <input type="hidden" name="_subject" value="Boston Iaido Interest!">
+  //     </form>
+  //   </div>
+  // </div>
+  //   `;
+  // }
 
   if (page == "history") {
     document.querySelector("#other").style.display = "block";
@@ -866,39 +866,40 @@ function load_page(page) {
             </div>
           </div>
       </div>
-
-      <div class="mt-5 mb-3" id="spacer"></div>
-  <div class="container pb-4">
-    <h1 class="text-center display-6 mb-3 fw-semibold lh-small" id="contact">Contact Us</h1>
-    <div class="container">
-      <p class="text-center">Still have more questions? If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
-    </div>
-    <div class="container">
-        <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
-        <div class="form-group">
-          <div class="row">
-            <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-            </div>
-            <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <br>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-          <br>
-        </div>
-        <div class="d-grid gap-2">
-        <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
-      </div>
-      <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
-      <input type="hidden" name="_subject" value="Boston Iaido Interest!">
-      </form>
-    </div>
-  </div>
-</div>
       `
-  }
-}
+
+//       <div class="mt-5 mb-3" id="spacer"></div>
+//   <div class="container pb-4">
+//     <h1 class="text-center display-6 mb-3 fw-semibold lh-small" id="contact">Contact Us</h1>
+//     <div class="container">
+//       <p class="text-center">Still have more questions? If you are interested in joining or watching the class, please let us know which dojo location and fill out this form!</p>
+//     </div>
+//     <div class="container">
+//         <form target="_blank" action="https://formsubmit.co/2d13ee5b4ce63284cf2979c6ce5e3352" method="POST">
+//         <div class="form-group">
+//           <div class="row">
+//             <div class="col">
+//               <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+//             </div>
+//             <div class="col">
+//               <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+//             </div>
+//           </div>
+//         </div>
+//         <div class="form-group">
+//           <br>
+//           <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+//           <br>
+//         </div>
+//         <div class="d-grid gap-2">
+//         <button type="submit" class="btn btn-dark btn-primary">Submit Form</button>
+//       </div>
+//       <input type="hidden" name="_cc" value="bostoniaido@gmail.com, cmtaylor978@gmail.com">
+//       <input type="hidden" name="_subject" value="Boston Iaido Interest!">
+//       </form>
+//     </div>
+//   </div>
+// </div>
+//       `
+//   }
+// }
