@@ -813,6 +813,5 @@ function load_page(page) {
     </div>
   </div>
 </div>
-      `
   }
 }
