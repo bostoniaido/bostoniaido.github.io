@@ -189,7 +189,7 @@ function load_page(page) {
       <br>
       <div class="container">
       <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
-      <h4 class="text-center mb-3 fw-semibold ">Battou Hou - Kihon/Basics (Omori Ryu)</h4>
+      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou Hou - Kihon no kata</h4>
       <div class="container">
         <div class="row">
             <div class="col">
@@ -205,6 +205,23 @@ function load_page(page) {
                 <li>Shihoutou Sono Ni</li>
                 <li>Zantsotsutou</li>
               </ol>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+      </div>
+      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou hou - Oku no Kata</h4>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            <ol type ="1">
+              <li>Zenteki Gyakutou</li>
+              <li>Tatekito</li>
+              <li>Kouteki Gyakutou</li>
+              <li>Kouteki Nukiuchi</li>
+            </ol>
             </div>
             <div class="col">
             </div>
@@ -234,23 +251,7 @@ function load_page(page) {
             </div>
         </div>
       </div>
-      <h4 class="text-center mb-3 fw-semibold ">Oku no Kata</h4>
-      <div class="container">
-        <div class="row">
-            <div class="col">
-            </div>
-            <div class="col">
-            <ol type ="1">
-              <li>Zenteki Gyakutou</li>
-              <li>Tatekito</li>
-              <li>Kouteki Gyakutou</li>
-              <li>Kouteki Nukiuchi</li>
-            </ol>
-            </div>
-            <div class="col">
-            </div>
-        </div>
-      </div>
+      
       <h4 class="text-center mb-3 fw-semibold ">Tatehiza no Bu - Chuden/Intermediate (Eishin Ryu)</h4>
       <div class="container">
         <div class="row">
@@ -320,7 +321,22 @@ function load_page(page) {
         <div class="col">
         </div>
     </div>
-    <h4 class="text-center mb-3 fw-semibold ">Tachi Uchi no Kurai</h4>
+    <h4 class="text-center mb-3 fw-semibold ">Bangai no Bu - Okuden (Inner transmission)</h4>
+    <div class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col">
+      <ol type="1">
+        <li>Hayanami</li>
+        <li>Raiden</li>
+        <li>Jinrai</li>
+      </ol>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  <h4 class="text-center mb-3 fw-semibold ">Tachi Uchi no Kurai</h4>
       <div class="container">
       <div class="row">
           <div class="col">
@@ -340,18 +356,7 @@ function load_page(page) {
         </div>
       </div>
     </div>
-    <h4 class="text-center mb-3 fw-semibold ">Bangai no Bu</h4>
-      <div class="container">
-      <div class="row">
-        <div class="col">
-        </div>
-        <div class="col">
-        <ol type="1">
-        </ol>
-      </div>
-      <div class="col">
-      </div>
-    </div>
+
   </div>
     <p style="text-align:center">More information can be found on the official <a href="https://mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
   </div>
