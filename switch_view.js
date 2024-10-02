@@ -189,7 +189,7 @@ function load_page(page) {
       <br>
       <div class="container">
       <h1 class="text-center display-6 mb-3 fw-semibold lh-small">Waza or Techniques of MJER</h1>
-      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou Hou - Kihon no kata</h4>
+      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou Hou - Kihon no Kata</h4>
       <div class="container">
         <div class="row">
             <div class="col">
@@ -210,7 +210,7 @@ function load_page(page) {
             </div>
         </div>
       </div>
-      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou hou - Oku no Kata</h4>
+      <h4 class="text-center mb-3 fw-semibold ">Dai Nippon Battou Hou - Oku no Kata</h4>
       <div class="container">
         <div class="row">
             <div class="col">
