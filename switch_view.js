@@ -659,14 +659,14 @@ function load_page(page) {
         <h1 class="display-6 mb-3 fw-semibold lh-small">The 10th Taikai - International Kokusai Renmei Seminar</h1>
         <p class="">Date: November 16th (Saturday), 2024<br>
         Location: 2 Chome-60-1 Denenchofu, Ota City, Tokyo 145-0071, Japan <br>
-        Seminar Details: TBD </p>
+        Seminar Details: <a href="https://mjer-iaido.github.io/en/post/the-10th-taikai-information/">Seminar Information</a> </p>
         </div>
 
         <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">Boston Iaido 21st Anniversary Seminar</h1>
         <p class="">Date: October 20th (Sunday), 2024<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
-        Seminar Details: TBD </p>
+        Seminar Details: (Setup 8am) 9am - 5pm </p>
         </div>
 
         <div class="container">
