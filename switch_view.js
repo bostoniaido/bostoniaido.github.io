@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .querySelector("#location")
     .addEventListener("click", () => load_page("location"));
+  document
+    .querySelector("#conduct")
+    .addEventListener("click", () => load_page("conduct"));  
   // document
   //   .querySelector("#contact")
   //   .addEventListener("click", () => load_page("contact"));
@@ -383,12 +386,12 @@ function load_page(page) {
           <div class="row">
             <div class="col" style="text-align:center"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
             <div class="col" style="text-align:center"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 3rd Dan</p></div>
-            <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 4th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 5th Dan</p></div>
           <div>
           <div class="row">
             <div class="col" style="text-align:center"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 4th Dan</p></div>
             <div class="col" style="text-align:center"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
-            <div class="col" style="text-align:center"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 3rd Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 4th Dan</p></div>
           </div
       </div>
     </div>
@@ -907,4 +910,65 @@ function load_page(page) {
 // </div>
 //       `
   }
+  if (page == "conduct") {
+    document.querySelector("#other").style.display = "block";
+    document.querySelector("#main").style.display = "none";
+
+    const display = document.querySelector("#other");
+    display.innerHTML = `
+    <style>
+        ul {
+            list-style-type: disc;
+            color: black;
+        }
+    </style>
+    <div class="container mt-4 pb-4">
+      <div class="container">
+          <h1 class="text-center mb-3">Boston Iaido Code of Conduct</h1>
+          <p>Boston Iaido is an official dojo of the World MJER Iaido Federation. As members of the Federation, we uphold the highest standards of respect, discipline, and commitment to the art of iaido. This Code of Conduct outlines the expectations for all members and ensures a safe, respectful, and focused training environment.</p>
+          <ol>
+          <li><strong>Respect and Etiquette</strong>
+              <ul>
+                  <li>Treat all dojo members, instructors, and guests with respect. Bow upon entering and leaving the dojo and adhere to all etiquette specific to iaido.</li>
+                  <li>Refrain from interrupting instruction and maintain silence during demonstrations and explanations.</li>
+                  <li>Maintain a clean uniform (keikogi) and well-kept equipment, demonstrating respect for the art and those around you.</li>
+              </ul>
+          </li>
+          <li><strong>Commitment to the World MJER Iaido Federation Principles and Guidelines</strong>
+              <ul>
+                  <li>As members of the World MJER Iaido Federation, we adhere to all Federation guidelines and standards.</li>
+                  <li>Members are prohibited from joining or participating in any other iaido federation while part of the Federation. This ensures that our training and progress align with the Federation’s sanctioned curriculum and philosophy.</li>
+                  <li>Members who study other forms of Japanese swordsmanship (such as kendo, kenjutsu, or other sword arts) must avoid publicly mixing or integrating techniques, movements, or philosophies from these styles with those of iaido. This separation preserves the unique principles, techniques, and traditions of iaido as taught in this dojo and the Federation.</li>
+                  <li>Members must not engage in or promote tameshigiri (test cutting). The Federation holds that, in iaido, the sword possesses a profound spiritual aspect, serving as an extension of the practitioner’s self and inner journey. To use the sword merely as a tool for cutting is seen as diminishing its significance and the connection between sword and spirit. Our focus, in alignment with this philosophy, remains on kata and disciplined movements that cultivate harmony between body, mind, and sword.</li>
+                  <li>As practitioners, we are committed to passing on the techniques learned without modification. This dedication to tradition ensures the integrity of our art, allowing us to honor the forms as they have been taught and preserve them for future generations.</li>
+              </ul>
+          </li>
+          <li><strong>Safety and Equipment Handling</strong>
+              <ul>
+                  <li>Practice with awareness of your surroundings and respect for others’ personal space.</li>
+                  <li>Handle swords (bokuto, iaito, or shinken) with extreme care, treating them as live weapons at all times.</li>
+                  <li>If unsure of any technique, seek guidance from the instructor to avoid risk of injury to yourself or others.</li>
+              </ul>
+          </li>
+          <li><strong>Personal Conduct and Integrity</strong>
+              <ul>
+                  <li>Demonstrate humility, patience, and integrity in all aspects of training and personal behavior within and outside the dojo.</li>
+                  <li>Avoid using your skills in any way that would bring discredit to the dojo, Federation, or the art of iaido.</li>
+                  <li>Be punctual and present for training, and notify an instructor of any pending extended absences.</li>
+              </ul>
+          </li>
+          <li><strong>Commitment to Learning and Growth</strong>
+              <ul>
+                  <li>Embrace constructive feedback from instructors and senior members. Use it to improve your skills and understanding of iaido.</li>
+                  <li>Practice diligently both in the dojo and at home to improve kata, posture, and concentration.</li>
+                  <li>Understand that iaido is a journey; advancement is achieved through consistent effort, dedication, and adherence to tradition.</li>
+              </ul>
+          </li>
+      </ol>
+      <p>By following this Code of Conduct, we foster a respectful and disciplined dojo that honors the principles of iaido. Our shared commitment strengthens Boston Iaido as a place of learning, tradition, and personal growth in the art.</p>
+      </div>
+    </div>
+          `;
+  }
+
 }
