@@ -652,7 +652,7 @@ function load_page(page) {
         <h1 class="display-6 mb-3 fw-semibold lh-small">2025 Boston - International Kokusai Renmei Seminar</h1>
         <p class="">Dates: September 19 - 21, 2025<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
-        Seminar Details: TBD </p>
+        Seminar Details: Fees $175 with Lunch Options (Sat - +$10; Sun - +15) </p>
         </div>
 
         <div class="container">
