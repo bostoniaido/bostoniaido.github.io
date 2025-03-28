@@ -845,7 +845,8 @@ function load_page(page) {
                 </div>
                 <div class="col">
                   <p>Salisbury Schedule:<br>
-                    Tuesday: 7:45 PM to 9:45 PM<br></p>
+                    Sunday: 4:00 PM to 5:30 PM<br></p>
+                    Tuesday: 7:45 PM to 9:15 PM<br></p>
                 </div>
                 <div class="col">
                 <p>Tuition:<br>
