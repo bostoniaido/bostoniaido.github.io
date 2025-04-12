@@ -601,6 +601,14 @@ function load_page(page) {
         </div>
 
         <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Festival Boston 2025</h1>
+        <p class="">Date: April 26th - April 27th, 2025<br>
+        Location: Boston Common<br>
+        16 Charles Street, Boston, MA 02108<br>
+        Event Details: <a href="https://www.japanfestivalboston.org/2025-festival">Information</a></p>
+        </div>
+
+        <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">The 10th Taikai - International Kokusai Renmei Seminar</h1>
         <p class="">Date: November 16th (Saturday), 2024<br>
         Location: 2 Chome-60-1 Denenchofu, Ota City, Tokyo 145-0071, Japan <br>
@@ -611,7 +619,7 @@ function load_page(page) {
         <h1 class="display-6 mb-3 fw-semibold lh-small">Boston Iaido 21st Anniversary Seminar</h1>
         <p class="">Date: October 20th (Sunday), 2024<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
-        Seminar Details: (Setup 8am) 9am - 5pm </p>
+        Seminar Details: 9am - 5pm </p>
         </div>
 
         <div class="container">
@@ -638,7 +646,7 @@ function load_page(page) {
         </div>
 
         <div class="container">
-        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Festival Boston</h1>
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Festival Boston 2024</h1>
         <p class="">Date: April 27th - April 28th, 2024<br>
         Location: Boston Common<br>
         16 Charles Street, Boston, MA 02108<br>
