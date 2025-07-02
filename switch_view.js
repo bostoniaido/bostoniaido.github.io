@@ -303,7 +303,7 @@ function load_page(page) {
     </div>
 
   </div>
-    <p style="text-align:center">More information can be found on the official <a href="https://mjer-iaido.github.io">World MJER Iaido Federation</a> site</p>
+    <p style="text-align:center">More information can be found on the official <a href="https://mjer-iaido.github.io/" title="World MJER Iaido Federation">World MJER Iaido Federation</a> site</p>
   </div>
       </div>
     </div>
