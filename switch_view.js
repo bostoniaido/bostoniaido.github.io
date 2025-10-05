@@ -597,6 +597,7 @@ function load_page(page) {
         <h1 class="display-6 mb-3 fw-semibold lh-small">2025 Boston - International Kokusai Renmei Seminar</h1>
         <p class="">Dates: September 18 - 21, 2025<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
+        Instructors: Yoshinobu Uchizono Sensei (8th dan), Katsumi Masumura Sensei (8th dan)
         Seminar Details: <a href="https://forms.gle/uxo6xHXgjN4nLUPp7"> Registration Link</a></p>
         </div>
 
