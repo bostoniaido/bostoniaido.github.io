@@ -594,10 +594,17 @@ function load_page(page) {
     const display = document.querySelector("#other");
     display.innerHTML = `
         <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">The 11th Taikai - International Kokusai Renmei Seminar</h1>
+        <p class="">Date: November 8th (Saturday), 2025<br>
+        Location: 2 Chome-60-1 Denenchofu, Ota City, Tokyo 145-0071, Japan <br>
+        Seminar Details: <a href="https://mjer-iaido.github.io/en/post/information-about-the-11th-taikai/">Seminar Information</a> </p>
+        </div>
+
+        <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">2025 Boston - International Kokusai Renmei Seminar</h1>
         <p class="">Dates: September 18 - 21, 2025<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
-        Instructors: Yoshinobu Uchizono Sensei (8th dan), Katsumi Masumura Sensei (8th dan)
+        Instructors: Yoshinobu Uchizono Sensei (8th dan), Katsumi Masumura Sensei (8th dan) <br>
         Seminar Details: <a href="https://forms.gle/uxo6xHXgjN4nLUPp7"> Registration Link</a></p>
         </div>
 
@@ -617,14 +624,14 @@ function load_page(page) {
         </div>
 
         <div class="container">
-        <h1 class="display-6 mb-3 fw-semibold lh-small">Boston Iaido 21st Anniversary Seminar</h1>
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Boston Iaido's 21st Anniversary Seminar</h1>
         <p class="">Date: October 20th (Sunday), 2024<br>
         Location: War Memorial Recreation Center, Cambridge, MA 02139 <br>
         Seminar Details: 9am - 5pm </p>
         </div>
 
         <div class="container">
-        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Society of Boston Gakusensai</h1>
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Society of Boston Gakuensai</h1>
         <p class="">Date: October 11th (Friday), 2024 at 3:00pm<br>
         Location: The Foundry: Red Room, 101 Rogers St, Cambridge MA 02142 <br>
         Seminar Details: https://www.japansocietyboston.org/events/japan-society-of-boston-gakusensai</p>
