@@ -331,8 +331,8 @@ function load_page(page) {
             <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 5th Dan</p></div>
           <div>
           <div class="row">
-            <div class="col" style="text-align:center"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 4th Dan</p></div>
-            <div class="col" style="text-align:center"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 4th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 5th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/justin.jpg" alt="Justin" width="200" height="300"><p> Justin Kosuk, 5th Dan</p></div>
             <div class="col" style="text-align:center"><img src="img/luigi.jpg" alt="Luigi" width="200" height="300"><p> Luigi Guatieri, 4th Dan</p></div>
           </div
       </div>
