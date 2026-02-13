@@ -594,6 +594,13 @@ function load_page(page) {
     const display = document.querySelector("#other");
     display.innerHTML = `
         <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Day at Harvard</h1>
+        <p class="">Date: February 28th (Saturday), 2026<br>
+        Location: Harvard University, Cambridge, MA, USA <br>
+        Event Details: Coming Soon </p>
+        </div>
+
+        <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">The 11th Taikai - International Kokusai Renmei Seminar</h1>
         <p class="">Date: November 8th (Saturday), 2025<br>
         Location: 2 Chome-60-1 Denenchofu, Ota City, Tokyo 145-0071, Japan <br>
