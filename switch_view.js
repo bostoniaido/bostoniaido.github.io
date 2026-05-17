@@ -593,11 +593,29 @@ function load_page(page) {
 
     const display = document.querySelector("#other");
     display.innerHTML = `
+
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Kyu/Intermediate Exam</h1>
+        <p class="">Date: June 20th (Saturday), 2026<br>
+        Location: War Memorial Recreation Center, Cambridge, MA, USA <br>
+        </div>
+
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Festival Boston 2026</h1>
+        <p class="">Date: April 25th - 26th (Saturday and Sunday), 2026<br>
+        Location: Boston Common <br>
+        </div>
+
+        <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">Anime Boston 2026 - Community Table</h1>
+        <p class="">Date: April 3 - 5th (Friday, Saturday, Sunday), 2026<br>
+        Location: Harvard University, Cambridge, MA, USA <br>
+        </div>
+
         <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">Japan Day at Harvard</h1>
         <p class="">Date: February 28th (Saturday), 2026<br>
         Location: Harvard University, Cambridge, MA, USA <br>
-        Event Details: Coming Soon </p>
         </div>
 
         <div class="container">
