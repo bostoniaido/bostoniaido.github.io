@@ -425,13 +425,13 @@ function load_page(page) {
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <strong>Terminology, Definitions, Ranks and Titles</strong>
-          <p><a href="https://www.bostoniaido.com/iaido_terminology.pdf" target="_blank" rel="noopener noreferrer">Download here</a></p>
+          <p><a href="https://www.bostoniaido.com/iaido_terminology.pdf" target="_blank" rel="noopener noreferrer">Basic Terminology to Get Started</a></p>
           <strong>Etiquette</strong>
-          <p class="lh-base"> Coming Soon! </p>
+          <p class="lh-base"> See Page 17 of The Iaido Bookmark below </p>
           <strong>Code of Conduct</strong>
-          <p class="lh-base"> Coming Soon! </p>
+          <p class="lh-base"> About > Code of Conduct </p>
           <strong>Are there any supplemental reading I can do?</strong>
-          <p class="lh-base"> Coming soon! </p>
+          <p><a href="https://www.bostoniaido.com/BostonIaido-Basic_Info.pdf" target="_blank" rel="noopener noreferrer">The Iaido Bookmark</a></p>
         </div>
       </div>
     </div>
