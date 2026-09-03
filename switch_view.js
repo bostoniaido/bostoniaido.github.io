@@ -595,6 +595,13 @@ function load_page(page) {
     display.innerHTML = `
 
         <div class="container">
+        <h1 class="display-6 mb-3 fw-semibold lh-small">2026 Genwakan - International Kokusai Renmei Seminar</h1>
+        <p class="">Date: June 25th - 27th (Saturday), 2026<br>
+        Location: Veterans' Memorial Building, 2203 Central Ave, Alameda, CA 94501 <br>
+        Seminar Details: Coming Soon <br>
+        </div>
+
+        <div class="container">
         <h1 class="display-6 mb-3 fw-semibold lh-small">Kyu/Intermediate Exam</h1>
         <p class="">Date: June 20th (Saturday), 2026<br>
         Location: War Memorial Recreation Center, Cambridge, MA, USA <br>
