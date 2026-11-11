@@ -323,12 +323,12 @@ function load_page(page) {
       <div class="container">
           <h1 class="text-center mb-3">Instructors</h1>
           <div class="row">
-            <div class="col" style="text-align:center"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Renshi</p></div>
+            <div class="col" style="text-align:center"><img src="img/sensei.jpg" alt="Sensei Cuong" width="200" height="300"><p> Sensei Cuong Nguyen, 7th Dan, Kyoshi</p></div>
           </div>
           <div class="row">
-            <div class="col" style="text-align:center"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 5th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/tien.jpg" alt="Tien" width="200" height="300"><p> Tien Dao, 6th Dan</p></div>
             <div class="col" style="text-align:center"><img src="img/vlad.jpg" alt="Vlad" width="200" height="300"><p> Vladimir Grinev, 3rd Dan</p></div>
-            <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 5th Dan</p></div>
+            <div class="col" style="text-align:center"><img src="img/chad.jpg" alt="Chad" width="200" height="300"><p> Chad Taylor, 6th Dan</p></div>
           <div>
           <div class="row">
             <div class="col" style="text-align:center"><img src="img/greg.jpg" alt="Greg" width="200" height="300"><p> Greg Lynch, 5th Dan</p></div>
